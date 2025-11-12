@@ -7,9 +7,9 @@
 local Font = require("ui/font")
 for k, v in pairs(Font.fontmap) do
     if v == "NotoSans-Regular.ttf" then
-        Font.fontmap[k] = "source/SourceSans3-Regular.ttf"
+        Font.fontmap[k] = "Star-Crush.ttf"
     elseif v == "NotoSans-Bold.ttf" then
-        Font.fontmap[k] = "source/SourceSans3-Bold.ttf"
+        Font.fontmap[k] = "Star-Crush.ttf"
     end
 end
 for k, v in pairs(Font.sizemap) do
